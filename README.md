@@ -7,4 +7,3 @@ Go to: Project > *ProjectName* Properties > C/C++ > Optimization.
 Enter the following settings:
   - Optimization        = Maximize Speed (/O2)
   - Favor Size Or Speed = Favour fast code (/Ot)
-  - 
