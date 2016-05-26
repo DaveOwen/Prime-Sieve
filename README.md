@@ -4,6 +4,10 @@ Program to find a set amount of prime numbers to a set limit. Change the range v
 #Optimization in Visual Studio
 Go to: Project > *ProjectName* Properties > C/C++ > Optimization. 
 
-Enter the following settings:
-  - Optimization        = Maximize Speed (/O2)
-  - Favor Size Or Speed = Favour fast code (/Ot)
+Select the following settings:
+  - Optimization: Maximize Speed (/O2)
+  - Favor Size Or Speed: Favour fast code (/Ot)
+
+Go to: Project > *ProjectName* Properties > C/C++ > Code Generation.
+Select the following setting:
+ - Basic Runtime Checks: Default
