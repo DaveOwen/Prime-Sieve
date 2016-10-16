@@ -7,7 +7,6 @@
 #include <bitset>
 #include <string>
 #include <math.h>
-//#include <climits>
 
 #define RUNS 10000  // How many times the code will runs. I use run each section of code a set number of times, divide by that number
 // to get the average. I had to to this because the program was running too fast for the GetTickCount() to get a speed.
