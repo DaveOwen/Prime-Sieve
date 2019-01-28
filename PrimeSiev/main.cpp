@@ -7,9 +7,9 @@
 #include <string>
 #include <math.h>
 
-#define RUNS 10000  // How many times the code will runs. I use run each section of code a set number of times, divide by that number
+#define RUNS 10000  // How many times the code will run. I use run each section of code a set number of times, divide by that number
 // to get the average. I had to to this because the program was running too fast for the GetTickCount() to get a speed.
-#define RANGE 100000 // What number of primes to search up to
+#define RANGE 100000 // What number of primes to search up to.
 #define R2 RANGE/2
 #define BRUNS 100000
 
@@ -50,7 +50,7 @@ int main()
 
 
 	//#################### MEMSET FUNCTION TIMING TEST ####################
-	// Here I am timing how long the memset function takes, so I can take that off the time for the sieve
+	// Here I am timing how long the memset function takes, so I can take that off the time for the sieve.
 
 	float totalMemset = ((float)endtime - starttime) / (1000 * RUNS);
 	//#####################################################################
