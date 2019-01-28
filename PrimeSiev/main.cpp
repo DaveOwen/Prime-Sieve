@@ -3,7 +3,6 @@
 #include <iostream>
 #include <fstream>
 #include <Windows.h>
-#include <conio.h>
 #include <bitset>
 #include <string>
 #include <math.h>
@@ -65,6 +64,5 @@ int main()
 	std::cout << "\nPrimes Found: ";
 	std::cout << count + 1;
 	//#####################################################################
-	_getch();
 	return 0;
 }
