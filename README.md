@@ -11,3 +11,7 @@ Select the following settings:
 Go to: Project > *ProjectName* Properties > C/C++ > Code Generation.
 Select the following setting:
  - Basic Runtime Checks = Default
+
+##Compiling with GCC/G++
+`g++ -std=c++11 -Ofast -fopenmp main.cpp -o primes`
+
